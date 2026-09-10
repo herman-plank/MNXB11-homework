@@ -1,3 +1,4 @@
-#MNXB conflicted fairytale, branch myconflict
+#MNXB resolved conflict fairytale
+
 
 I am an **evil** _lizard
