@@ -51,8 +51,8 @@ void read() {
     c2->SetRightMargin(0.08);
 
 
-    const char *drawExpr = "sqrt(object.fVx*object.fVx + object.fVy*object.fVy) : object.fVz";
-    const char *cutExpr  = "sqrt(object.fVx*object.fVx + object.fVy*object.fVy + object.fVz*object.fVz) > 0.50";
+    const char *drawExpr = "object.HorizontalSpeed() : object.fVz";
+    const char *cutExpr  = "object.Speed() > 0.50";
 
     tree->Draw(drawExpr, cutExpr, "SCAT");
     
